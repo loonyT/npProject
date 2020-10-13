@@ -3,12 +3,12 @@
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
-* [Definition of the project](#Definitionoftheproject)
+* [Definition-of-the-project](#Definition-of-the-project)
 * [Maquette](#Maquette)
-* [Chartegraphique](#Chartegraphique)
+* [Charte-graphique](#Charte-graphique)
 * [Steps](#contributing)
-* [Datadetails](#Datadetails)
-* [Schémadebasededonnées](#Schémadebasededonnées)
+* [Data-details](#Data-details)
+* [Schéma-de-base-de-données](#Schéma-de-base-de-données)
 * [Acknowledgements](#acknowledgements)
 
 
@@ -31,7 +31,7 @@ This section should list any major frameworks that you built your project using.
 
 <!-- GETTING STARTED -->
 
-### Definition of the project
+### Definition-of-the-project
 
 Utilisation de la suite MERN pour créer un réseau social. 
 
@@ -42,7 +42,7 @@ Do not connect the platform to a payment system
 
 
 <!-- ROADMAP -->
-## Charte graphique
+## Charte-graphique
 
 Définir les basiques : couleurs / typo / différents éléments récurrents (navBar, aside, footer...))
 
@@ -60,14 +60,14 @@ Définir les basiques : couleurs / typo / différents éléments récurrents (na
 
 
 <!-- LICENSE -->
-## Data details
+## Data-details
 
 Définir les éléments qui seront chargés de votre base de données (dynamique) et ceux qui seront fixes sur votre site (HTML purement statique
 
 
 
 <!-- CONTACT -->
-## Schéma de base de données
+## Schéma-de-base-de-données
 
 
 

@@ -71,7 +71,9 @@ Statiques :
 
 ## Must-have-features
 
-
+1. Un système de sessions : inscription, connexion / déconnexion / mot de passe perdu / différents privilèges
+2. Interactions utilisateurs cohérentes avec le thème de site choisi (ex: commentaires, forum, chat, inscription et vente de tickets pour l'événement avec confirmation par mail, newsletter, cartes interactives, e-shop, chatbot.....)
+3. L'utilisation d'au moins une API
 
 
 <!-- ACKNOWLEDGEMENTS -->

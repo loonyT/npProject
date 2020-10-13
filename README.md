@@ -9,6 +9,7 @@
 * [Steps](#contributing)
 * [Data-details](#Data-details)
 * [Schéma-de-base-de-données](#Schéma-de-base-de-données)
+* [Must-have-features](#Must-have-features)
 * [Acknowledgements](#acknowledgements)
 
 
@@ -65,8 +66,11 @@ Statiques :
 
 
 
-<!-- CONTACT -->
 ## Schéma-de-base-de-données
+
+
+## Must-have-features
+
 
 
 

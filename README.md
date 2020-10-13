@@ -17,7 +17,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project : mission objective 
 
-Site de rencontre
+Site de rencontre/ Réseau social. 
 En général, le système de réseautage communautaire est un service très ouvert et accessible sur une simple inscription. Créer un site internet de rencontre calquant ce système permet donc à un individu de trouver un de ses anciens amis en s’inscrivant sur le site. Un tel site web offre un programme interactif qui permet de tisser ou d’établir des contacts interpersonnels. Ce nouvel aspect de réseautage communautaire s’apparente techniquement à un social media qui intensifie le système social du réseau tout en encourageant la corrélation entre les adhérents. Cette rencontre sur le web peut aussi prendre la forme d’un échange d’opinions sur des rapports humains, des occupations, des évènements et des sujets culturels. Les sites de rencontre peuvent avoir chacun leur spécialisation. Ils peuvent se distinguer par le système de réseautage communautaire et le mode réseau utilisé. Il s’agit en l’occurrence du réseau ouvert, du réseau par invitation d’un adhérent et du réseau payant par inscription. Le réseau ouvert est accessible à tous les internautes et n’est que très peu sécurisé. Le réseau par invitation d’un adhérent repose sur l’autorisation d’accès aux sites par un membre et ce, grâce à une sollicitation faite par un autre membre du site. Le réseau payant par inscription n’est accessible qu’en contrepartie d’une contribution financière ou droit d’adhésion au site.
 
 

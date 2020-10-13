@@ -35,19 +35,14 @@ This section should list any major frameworks that you built your project using.
 
 Utilisation de la suite MERN pour créer un réseau social. 
 
-<!-- USAGE EXAMPLES -->
+
 ## Maquette
 
-Do not connect the platform to a payment system
-
-
-<!-- ROADMAP -->
 ## Charte-graphique
 
 Définir les basiques : couleurs / typo / différents éléments récurrents (navBar, aside, footer...))
 
 
-<!-- CONTRIBUTING -->
 ## Steps
 
 1. Construire un réseau social avec React, Redux, Node, Express et MongoDB
@@ -59,17 +54,19 @@ Définir les basiques : couleurs / typo / différents éléments récurrents (na
 
 
 
-<!-- LICENSE -->
+
 ## Data-details
 
-Définir les éléments qui seront chargés de votre base de données (dynamique) et ceux qui seront fixes sur votre site (HTML purement statique
+Définir les éléments qui seront chargés de la base de données (dynamique) et ceux qui seront fixes sur le site (HTML purement statique) :
+
+Dynamiques : 
+
+Statiques : 
 
 
 
 <!-- CONTACT -->
 ## Schéma-de-base-de-données
-
-
 
 
 

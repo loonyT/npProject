@@ -3,12 +3,12 @@
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
-* [Definition of the project](#Definition of the project)
+* [Definition of the project](#Definitionoftheproject)
 * [Maquette](#Maquette)
-* [Charte graphique](#Charte graphique)
+* [Chartegraphique](#Chartegraphique)
 * [Steps](#contributing)
-* [Data details](#Data details)
-* [Schéma de base de données](#Schéma de base de données)
+* [Datadetails](#Datadetails)
+* [Schémadebasededonnées](#Schémadebasededonnées)
 * [Acknowledgements](#acknowledgements)
 
 

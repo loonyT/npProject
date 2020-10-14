@@ -41,7 +41,28 @@ Utilisation de la suite MERN pour créer un réseau social.
 
 ## Charte-graphique
 
-Définir les basiques : couleurs / typo / différents éléments récurrents (navBar, aside, footer...))
+Définir les basiques : 
+
+1. Logotype : typographie et fond coloré : bleu, arial black. 
+2. Palette chromatique : couleurs : primaires, secondaires, appoints. 
+3. Signature de mail 
+4. Tableaux types 
+5. Contenu rédactionnel 
+6. Style de bouttons : bleu et contour arrondis 
+7. Formulaires et notifications : checkbox, menu déroulants, barre de status. 
+8. Navbar : arrondie et bleu foncé
+9. Footer : petit et gris clair 
+10. Aside : petit et bleu clair 
+
+Définir les éléments éssentiels à la charte : 
+
+1. brand story, voice, logo, imagery, typography, palette de couleure. 
+2. Logo : dimension ? espace ? couleure ? 
+3. Typo : présentation, alignement, espacement ? 
+4. Les images : inspiration, message a communiquer aux utilisateurs, émotions a communiquer ? 
+5. Attention au "ton" du site : certains mots sont plus agréables et ressortent mieux que d'autres 
+
+
 
 
 ## Steps

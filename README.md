@@ -6,7 +6,7 @@
 * [Definition-of-the-project](#Definition-of-the-project)
 * [Maquette](#Maquette)
 * [Charte-graphique](#Charte-graphique)
-* [Steps](#contributing)
+* [Steps](#Steps)
 * [Data-details](#Data-details)
 * [Schéma-de-base-de-données](#Schéma-de-base-de-données)
 * [Must-have-features](#Must-have-features)

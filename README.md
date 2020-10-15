@@ -89,6 +89,9 @@ Statiques :
 
 ## Schéma-de-base-de-données
 
+/home/becode/Downloads/Diagramme vierge.jpeg
+
+
 
 ## Must-have-features
 

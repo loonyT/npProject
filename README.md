@@ -90,8 +90,8 @@ Statiques :
 ## Schéma-de-base-de-données
 
 
+![Diagramme vierge](https://user-images.githubusercontent.com/62712207/96141203-12385e00-0f01-11eb-8e37-6222d560ffd0.jpeg)
 
-![DB](http:///home/becode/Downloads/Diagramme vierge.jpeg)
 
 ## Must-have-features
 

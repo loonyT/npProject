@@ -7,11 +7,11 @@ const app = express();
 // Connect Database
 connectDB();
 
-// Init Middleware
+// Init Middleware instead of bodyparser.json to get datas from the request body 
 app.use(express.json());
 
-// Define Routes
-app.use('/api/users', require('./routes/api/users'));
+// Define Routes and test them via Postman by creating collections within the software
+app.use('/api/users', require('./routes/api/users')); //puting an endpoint to the user's file
 app.use('/api/auth', require('./routes/api/auth'));
 app.use('/api/profile', require('./routes/api/profile'));
 app.use('/api/posts', require('./routes/api/posts'));

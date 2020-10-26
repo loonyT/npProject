@@ -1,5 +1,7 @@
 const mongoose = require('mongoose');
 const config = require('config');
+const router = require('../routes/api/users');
+const Profile = require('../models/Profile');
 const db = config.get('mongoURI');
 
 const connectDB = async () => {
@@ -7,7 +9,7 @@ const connectDB = async () => {
 		await mongoose.connect(db, {
 			useNewUrlParser: true,
 			useCreateIndex: true,
-			useFindAndModify: false,
+			useFindAndModify: false, //fixing the depreciation warning 
 			useUnifiedTopology: true
 		});
 
@@ -18,5 +20,3 @@ const connectDB = async () => {
 		process.exit(1);
 	}
 };
-
-module.exports = connectDB;

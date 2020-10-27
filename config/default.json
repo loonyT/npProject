@@ -1,5 +1,8 @@
 {
     "mongoURI": "mongodb+srv://bastien:bastien@devconnector.vkkus.mongodb.net/dbconnector?retryWrites=true&w=majority",
-    "jwtSecret": "mysecrettoken"
+    "jwtSecret": "mysecrettoken",
+    "githubClientId": "e7bbde8af4d2159ee98f",
+    "githubSecret": "c3c3469a9ed8d5d42a7fe0bb0117ce13e77621c3"
+    
 }
 

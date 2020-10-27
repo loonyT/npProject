@@ -175,8 +175,8 @@ router.delete('/', auth, async (req, res) => {
       user: req.user.id
     });
     // Remove profile
-    await Profile.findOneAndRemove({
-      user: req.user.id
+    await Profile.findOneAndRemove({ //findOne is a method
+      user: req.user.id //matched to the request user id 
     });
     // Remove user
     await User.findOneAndRemove({
@@ -198,7 +198,7 @@ router.delete('/', auth, async (req, res) => {
 router.put(
   '/experience',
   [
-    auth,
+    auth, //middleware
     [
       check('title', 'Title is required').not().isEmpty(),
       check('company', 'Company is required').not().isEmpty(),
@@ -211,7 +211,7 @@ router.put(
     ]
   ],
   async (req, res) => {
-    const errors = validationResult(req);
+    const errors = validationResult(req); //on the front end in react we have a from to add for that and all fields will be required and thats why the middleware is in between Brackets
     if (!errors.isEmpty()) {
       return res.status(400).json({
         errors: errors.array()
@@ -236,18 +236,18 @@ router.put(
       to,
       current,
       description
-    };
+    }; //this will create an object with the data the user entered
 
-    try {
+    try { //now we connect to mongoDB 
       const profile = await Profile.findOne({
-        user: req.user.id
+        user: req.user.id //we get that from the token
       });
 
-      profile.experience.unshift(newExp);
+      profile.experience.unshift(newExp); //unshift push at the begining rather then in the end
 
       await profile.save();
 
-      res.json(profile);
+      res.json(profile); //return the hole profile that will be helpful in the front end
     } catch (err) {
       console.error(err.message);
       res.status(500).send('Server Error');
@@ -265,8 +265,8 @@ router.delete('/experience/:exp_id', auth, async (req, res) => {
       user: req.user.id
     });
 
-    foundProfile.experience = foundProfile.experience.filter(
-      (exp) => exp._id.toString() !== req.params.exp_id
+    foundProfile.experience = foundProfile.experience.filter( //filter because we take one ( experience) out
+      (exp) => exp._id.toString() !== req.params.exp_id //we wanna get that experience
     );
 
     await foundProfile.save();

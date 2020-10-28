@@ -1,31 +1,40 @@
 {
-  "name": "devconnector",
-  "version": "1.0.0",
-  "description": "Social network for developers",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server",
-    "server": "nodemon server",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
-  },
-  "author": "Brad Traversy",
-  "license": "MIT",
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "axios": "^0.19.2",
-    "bcryptjs": "^2.4.3",
-    "client": "file:client",
-    "config": "^3.3.0",
-    "express": "^4.17.1",
-    "express-validator": "^6.4.0",
-    "gravatar": "^1.8.0",
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.9.5",
-    "normalize-url": "^5.0.0"
+    "moment": "^2.24.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-moment": "^0.9.7",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.4.3",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0",
+    "uuid": "^7.0.2"
   },
-  "devDependencies": {
-    "concurrently": "^5.1.0",
-    "nodemon": "^2.0.2"
-  }
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:5000"
 }
